@@ -1,0 +1,21 @@
+{
+  "name": "dov-people",
+  "version": "1.0.0",
+  "description": "Scraping a Irisys service for data and putting it into a database.",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "awarnhag",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "3.4.1",
+    "dotenv": "2.0.0",
+    "firefox-profile": "0.4.0",
+    "geckodriver": "1.0.2",
+    "nightwatch": "0.9.6",
+    "node-tesseract": "0.2.7",
+    "phantomjs-prebuilt": "2.1.9",
+    "selenium-webdriver": "2.53.3"
+  }
+}
